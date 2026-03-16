@@ -7,10 +7,7 @@
 
 BUCKET_NAME="cloud-storage-ayomide"
 REGION="us-east-1"
-LOG_FILE="../logs/storage.log"
-
-# Create logs directory if it doesn't exist
-mkdir -p ../logs
+LOG_FILE="/tmp/storage.log"
 
 # Logging function
 # Logging function
