@@ -1,0 +1,11 @@
+[2026-03-16 11:39:59] Creating S3 bucket: cloud-storage-ayomide
+[2026-03-16 11:42:18] Bucket cloud-storage-ayomide created successfully
+[2026-03-16 14:40:00] Exiting storage manager
+[2026-03-16 15:32:59] Creating S3 bucket: cloud-storage-ayomide
+[2026-03-16 15:33:12] Bucket cloud-storage-ayomide created successfully
+[2026-03-16 15:36:08] Exiting storage manager
+[2026-03-16 17:43:48] Uploaded testfile.txt to s3://cloud-storage-ayomide
+[2026-03-16 17:44:24] Listing all files in cloud-storage-ayomide
+[2026-03-16 17:44:33] Listed files in cloud-storage-ayomide
+[2026-03-16 17:47:03] Downloaded testfile.txt from s3://cloud-storage-ayomide to /c/Users/Ayomide/Downloads
+[2026-03-16 17:48:30] Deleted testfile.txt from s3://cloud-storage-ayomide
