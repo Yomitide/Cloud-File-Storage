@@ -9,6 +9,9 @@ BUCKET_NAME="cloud-storage-ayomide"
 REGION="us-east-1"
 LOG_FILE="../logs/storage.log"
 
+# Create logs directory if it doesn't exist
+mkdir -p ../logs
+
 # Logging function
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a $LOG_FILE
