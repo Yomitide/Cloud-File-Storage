@@ -13,8 +13,10 @@ LOG_FILE="../logs/storage.log"
 mkdir -p ../logs
 
 # Logging function
+# Logging function
 log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a $LOG_FILE
+    mkdir -p "$(dirname $LOG_FILE)"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" | tee -a $LOG_FILE 2>/dev/null || echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1"
 }
 
 echo "============================================"
